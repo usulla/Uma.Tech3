@@ -13,7 +13,7 @@ body {
     overflow: hidden;
     height: 100vh;
     width: 100vw;
-    background: #0321A5;
+  
 }
 
 body,
@@ -34,12 +34,13 @@ html {
 
 .bg1 {
     background:
-        url('images/bg1_min.jpg') left center no-repeat;
-    background-size: cover;
+    linear-gradient(to right, #072daa, #01029a), url('images/bg_uma-min.png') left center no-repeat;
+    background-size: contain;
     height: 104vh;
     width: 104vw;
     margin-left: -2vw;
     margin-top:-2vh;
+    background-blend-mode:color-dodge;
     
    
 }
